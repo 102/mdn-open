@@ -1,6 +1,6 @@
 {
   "name": "mdn-open",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "CLI tool for MDN search",
   "main": "index.js",
   "repository": "git@github.com:102/mdn-open.git",
