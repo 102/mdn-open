@@ -42,5 +42,6 @@ const url =
 if (isDryRun) {
   process.stdout.write(url + "\n");
 } else {
-  require("open")(url);
+  const { default: open } = await import("open");
+  open(url)
 }

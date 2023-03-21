@@ -6,8 +6,9 @@
   "repository": "git@github.com:102/mdn-open.git",
   "author": "Roman Gusev <rgusev2@gmail.com>",
   "license": "MIT",
+  "type": "module",
   "dependencies": {
-    "open": "^8.0.6"
+    "open": "^9.0.0"
   },
   "bin": {
     "mdn": "./index.js"
